@@ -13,7 +13,7 @@ public class Main {
 		int size = sc.nextInt();
 		System.out.println("No of Operation you wants to Perfrom: ");
 		int k=sc.nextInt();
-		for(k=0;k<6;k++) {
+		for(int p=0;p<k;p++) {
 			System.out.println("*-----------------*****_______________________\nChoose Operation: ");
 			System.out.println("1.Create Node\n"
 					+ "2.Add Node First in List\n"
