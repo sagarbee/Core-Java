@@ -1,0 +1,21 @@
+Operator: 
+			Operators are Symbol which are used to perform specific operation on Operands.
+Operands: 
+			Operands are values defined by user.
+
+operator's are classified into two types 
+			1.based on number of operands require to perform certain operation:
+				a.unary operator:it need minimum 1 operand
+				b.binary operator: required minimum 2 operand
+				c.ternary operator: required minimum 2 operand.
+				
+			2.based on type of operations they perform:
+			(A^2LC^2MRIB)
+				1.Arithmetic Operator
+				2.Assignment Operator
+				3.Logical Operator
+				4.Compound Assignment Operator
+				5.Miscellaneous Operators
+				6.Relational Operator
+				7.Increment and Decrement Operators
+				8.Bitwise Operators  
