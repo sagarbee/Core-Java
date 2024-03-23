@@ -35,13 +35,13 @@ public class Widening {
  *		2. short to int,long,float,double
  *		3. int to long float,double
  *		4. long to float,double
- *		5. float to double		
+ *		5. float to double	
+ *	
  */
 	
 	public static void main(String[] args) {
 		
 		byte b1 = 127;
-		System.out.println("value1:"+b1);
 		int i1 = b1;
 		System.out.println("to int"+i1);
 		
@@ -63,10 +63,12 @@ public class Widening {
 //		char c2 = b4;
 //		System.out.println("to char: "+c2);
 //		
-//		char c3 = 'z';
-//		System.out.println("value5: "+c3);
-//		byte b5 = c3;
-//		System.out.println(b5);
+		char c3 = 'z';
+//		short s1 = c3; CTE
+		
+		
+		short s2 = 254;
+//		char c4 = s2;
 		
 		long l = 345678684l;
 		System.out.println("value: "+l);
