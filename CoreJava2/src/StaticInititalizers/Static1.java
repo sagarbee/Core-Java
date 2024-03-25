@@ -1,6 +1,6 @@
 package StaticInititalizers;
 
-public class static1 {
+public class Static1 {
 	
 	static String firstName = "Sagar";
 	
