@@ -2,7 +2,7 @@ package ArrayPrograms;
 
 import java.util.Arrays;
 
-public class convertToCharArray {
+public class ConvertToCharArray {
 
 	public static void main(String[] args) {
 

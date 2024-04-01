@@ -3,7 +3,7 @@ package ArrayPrograms;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-public class linearSearch {
+public class LinearSearch {
 
 	public static void main(String[] args) {
 

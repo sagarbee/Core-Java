@@ -1,6 +1,6 @@
 package ArrayPrograms;
 
-public class findLength {
+public class FindLength {
 
 	public static void main(String[] args) {
 		int arr[] = {1,5,8,85,42,5};
