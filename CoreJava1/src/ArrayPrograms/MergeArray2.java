@@ -27,5 +27,7 @@ public class MergeArray2 {
 			}
 		}
 		System.out.println(Arrays.toString(mergeArray));
+		
+		
 	}
 }
