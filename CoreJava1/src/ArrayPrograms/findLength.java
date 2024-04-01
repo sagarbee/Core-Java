@@ -16,7 +16,6 @@ public class findLength {
 				{
 					break;
 				}
-				System.out.println(count +""+ i);
 				count++;
 				i++;
 			}
