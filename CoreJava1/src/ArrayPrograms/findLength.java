@@ -3,7 +3,7 @@ package ArrayPrograms;
 public class findLength {
 
 	public static void main(String[] args) {
-		int arr[] = new int[10];
+		int arr[] = {1,5,8,85,42,5};
 		
 	
 		int count=0;
@@ -14,8 +14,10 @@ public class findLength {
 			{
 				if(arr[i]==0 || arr[i]<=0)
 				{
-					count++;
+					break;
 				}
+				System.out.println(count +""+ i);
+				count++;
 				i++;
 			}
 			
