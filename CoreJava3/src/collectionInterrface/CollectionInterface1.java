@@ -24,5 +24,5 @@ public class CollectionInterface1 {
 		this.salary = salary;
 		
 	}
-
+ 
 }

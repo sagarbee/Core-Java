@@ -14,6 +14,7 @@ public class CollectionInterface1Driver {
 		collection.add(new CollectionInterface1("Adesh",23,978549147l,780000.00));
 		collection.add(new CollectionInterface1("Aditya",22,8796049147l,50000.00));
 		collection.add(new CollectionInterface1("Ramesh",18,89888049147l,850000.00));
-		
+			
+		System.out.println();
 	}
 }
