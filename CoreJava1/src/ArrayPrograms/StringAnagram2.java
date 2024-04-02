@@ -26,7 +26,7 @@ public class StringAnagram2 {
 
 		for (int i = 0; i < str1.length(); i++) {
 			count1[str1.charAt(i)]++;
-			count2[str2.charAt(i)]++;
+			count2[str2.charAt(i)]++; 
 		}
 
 		for (int i = 0; i < count1.length; i++) {
