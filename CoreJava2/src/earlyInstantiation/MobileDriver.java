@@ -6,7 +6,7 @@ public class MobileDriver {
 		
 		Mobile mobile1 = new Mobile("Samsung",64,16,35000.00);
 		mobile1.showMobile();
-		mobile1.battery.showBattery();
+//		mobile1.battery.showBattery();
 	}
 
 }

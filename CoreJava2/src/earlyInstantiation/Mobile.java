@@ -25,6 +25,7 @@ public class Mobile {
 	
 	{
 		battery = new Battery("samsung",4500,1200.00,"Li-on");
+		System.out.println("Battery created ..");
 	}
 	
 	
