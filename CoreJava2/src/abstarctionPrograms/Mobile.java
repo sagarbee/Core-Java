@@ -38,9 +38,12 @@ public abstract class Mobile {
 		this.os = os;
 	}
 
+	
+	
+	//  Abstract method
 	public abstract void displaySmartphone();
 	
-	
+	//Concrete not static method
 	public String getBrandName() {
 		return this.brandName;
 	}

@@ -23,8 +23,8 @@ public class Ios extends Mobile{
 		System.out.println("Your Phone   ");
 		System.out.println("---------------------------");
 		System.out.println("Brand: " + getBrandName());
-		System.out.println("RAM: " + getRam());
-		System.out.println("Storage: " + getStorage());
+		System.out.println("RAM: " + getRam()+"GB");
+		System.out.println("Storage: " + getStorage()+"GB");
 		System.out.println("Charging Type: " + getChargingType());
 		System.out.println("Operating System: " + os);
 		System.out.println("IOS Version: " + iosVersion);
