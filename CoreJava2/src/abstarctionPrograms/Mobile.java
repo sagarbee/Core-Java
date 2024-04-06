@@ -39,7 +39,6 @@ public abstract class Mobile {
 	}
 
 	
-	
 	//  Abstract method
 	public abstract void displaySmartphone();
 	
