@@ -6,8 +6,8 @@ public class Cardiologist extends Doctor{
 	String organ; 
 	
 	public Cardiologist() {
-		super();
-		// TODO Auto-generated constructor stub
+
+		
 	}
 	
 	public Cardiologist(String hospital,String name,String degree,double fees,String specialization, String organ) {
