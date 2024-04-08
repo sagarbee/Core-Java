@@ -10,4 +10,15 @@ public class Abc {
 		System.out.println("Method inside Abc");
 		return str;
 	}
+	
+	public int square(int a)
+	{
+		System.out.println("RTP inside ABC");
+		return a*a;
+	}
+	public int add(int a, int b, int c)
+	{
+		System.out.println("add inside abc");
+		return a+b+c;
+	}
 }

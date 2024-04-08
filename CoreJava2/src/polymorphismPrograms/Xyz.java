@@ -11,4 +11,17 @@ public class Xyz extends Abc {
 		System.out.println("Method inside Xyz");
 		return str;
 	}
+
+	public int square(int a)
+	{
+		System.out.println("------------------------");
+		System.out.println("RTP inside XYZ");
+		return a*a;
+	}
+	
+	public int add(int a, int b)
+	{
+		System.out.println("Add inside xyz");
+		return a+b;
+	}
 }
