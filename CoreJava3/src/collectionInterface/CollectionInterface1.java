@@ -1,4 +1,4 @@
-package collectionInterrface;
+package collectionInterface;
 
 import java.util.ArrayList;
 import java.util.Collection;
