@@ -1,10 +1,10 @@
 package multithreading;
 
-public class Thread1 extends Thread{
+public class Thread2 extends Thread{
 
 	public void run()
 	{
-		for(int i =0;i<5;i++)
+		for(char i='A';i<'F';i++)
 		{
 			System.out.println(i);
 			try {
@@ -15,6 +15,4 @@ public class Thread1 extends Thread{
 			}
 		}
 	}
-
-
 }
