@@ -37,9 +37,18 @@ public class Student {
 		return "[Student Name: "+name+", Roll No: "+rollno+"]";
 	}
 	
-	public int compareTo(Student s)
+	public int compareTo(Student o)
 	{
-		return this.name.compareTo(s.name);
+		if(this.rollno > o.rollno)
+		{
+			return 1;
+		}
+		else if(this.rollno<o.rollno)
+		{
+			return -1;
+		}
+		
+		return 0;
 	}
 	
 }

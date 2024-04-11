@@ -22,7 +22,6 @@ public class StudentDriver {
         studentList.add(student4);
         studentList.add(student5);
 
-        // Using natural ordering (compareTo method in Student class)
         Collections.sort(studentList);
 
         System.out.println("Sorted Student List by Name:");
@@ -65,4 +64,3 @@ public class StudentDriver {
         }
     }
 }
-

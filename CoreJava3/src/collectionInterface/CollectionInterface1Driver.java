@@ -61,7 +61,7 @@ public class CollectionInterface1Driver {
 		 */
 
 		// Downcasted to Arraylist and sort using comparable->compareTo abstract method
-		Collections.sort((ArrayList) collection);
+		Collections.sort((ArrayList<CollectionInterface1>) collection);
 
 		for (CollectionInterface1 b : collection) {
 			System.out.println(b);
