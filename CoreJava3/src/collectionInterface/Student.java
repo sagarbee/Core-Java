@@ -5,9 +5,6 @@ public class Student {
 	private String name;
 	private int rollno;
 
-	public Student() {
-
-	}
 
 	public Student(String name, int rollno) {
 		this.name = name;
