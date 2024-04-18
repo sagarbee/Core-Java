@@ -24,6 +24,9 @@ public class CollectionInterface1Driver {
 		collection.add(new CollectionInterface1("Aditya", 22, 8796049147l, 50000.00));
 		collection.add(new CollectionInterface1("Ramesh", 18, 89888049147l, 850000.00));
 
+		
+		
+		
 		//1.Iteration using for each loop		
 		System.out.println("1.Iteration using for each loop");
 		System.out.println("-------------------------------------------------------------");

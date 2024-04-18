@@ -13,17 +13,17 @@ public class MergeArray2 {
 		int length = arr1.length;
 
 		int i = 0;
-		for (int merge : mergeArray) {
+		for (;i<mergeArray.length;i++) {
 			
 			if(i<arr1.length)
 			{
 				mergeArray[i] = arr1[i];
-				i++;
+//				i++;
 			}
 			else
 			{
 				mergeArray[i] = arr2[i-arr1.length];
-				i++;
+//				i++;
 			}
 		}
 		System.out.println(Arrays.toString(mergeArray));

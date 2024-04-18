@@ -9,22 +9,6 @@ public abstract class Mobile {
 	private String os;
 	private double price;
 
-	public String getChargingType() {
-		return chargingType;
-	}
-
-	public void setChargingType(String chargingType) {
-		this.chargingType = chargingType;
-	}
-
-	public double getPrice() {
-		return price;
-	}
-
-	public void setPrice(double price) {
-		this.price = price;
-	}
-
 	public Mobile() {
 
 	}
@@ -38,11 +22,10 @@ public abstract class Mobile {
 		this.os = os;
 	}
 
-	
-	//  Abstract method
+	// Abstract method
 	public abstract void displaySmartphone();
-	
-	//Concrete not static method
+
+	// Concrete not static method
 	public String getBrandName() {
 		return this.brandName;
 	}
@@ -81,6 +64,22 @@ public abstract class Mobile {
 
 	public void setRam(int ram) {
 		this.ram = ram;
+	}
+
+	public String getChargingType() {
+		return chargingType;
+	}
+
+	public void setChargingType(String chargingType) {
+		this.chargingType = chargingType;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
 	}
 
 }

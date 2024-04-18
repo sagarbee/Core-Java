@@ -11,10 +11,14 @@ public class ReverseArray {
 		int[] reverse = reverseArray1(arr);
 
 		System.out.println(Arrays.toString(reverse));
-		
+
 		int[] reverse1 = reverseArray2(arr);
 
 		System.out.println(Arrays.toString(reverse1));
+		
+		int[] revA1 = rev(arr);
+
+		System.out.println(Arrays.toString(revA1));
 	}
 
 	public static int[] reverseArray1(int[] arr) {
@@ -38,4 +42,15 @@ public class ReverseArray {
 		return reverseArray;
 	}
 
+	public static int[] rev(int[] arr) {
+		int [] revA = new int[arr.length];
+		int i=0;
+		for(int j = arr.length-1;j>=0;j--)
+		{
+			revA[i] = arr[j];
+			
+			i++;
+		}
+		return revA;
+	}
 }

@@ -22,7 +22,16 @@ public class StudentDriver {
         studentList.add(student4);
         studentList.add(student5);
 
-        Collections.sort(studentList);
+        Collections.shuffle(studentList);
+        for (Student s : studentList) {
+            System.out.println(s);
+        }
+        Collections.shuffle(studentList);
+        
+        for (Student s : studentList) {
+            System.out.println(s);
+        }
+        //        Collections.sort(studentList);
 
         System.out.println("Sorted Student List by Name:");
         for (Student s : studentList) {

@@ -4,6 +4,7 @@ public class CalculatorDriver extends CalculatorImplementation1{
 
 	public static void main(String[] args) {
 
+		
 		CalculatorImplementation1 ci1 = new CalculatorImplementation1();
 		
 		// IF class is implementing two interface with same method then-> 
@@ -13,6 +14,9 @@ public class CalculatorDriver extends CalculatorImplementation1{
 //		System.out.println(ci1.super.addition(12,34));
 //		System.out.println(Calculator1.addition(34, 89));
 		System.out.println(ci1.subtraction(34, 89));
+	
+		System.out.println(ci1.re());
+		
 	}
 
 }

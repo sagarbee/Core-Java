@@ -34,18 +34,18 @@ public class Student {
 		return "[Student Name: "+name+", Roll No: "+rollno+"]";
 	}
 	
-	public int compareTo(Student o)
-	{
-		if(this.rollno > o.rollno)
-		{
-			return 1;
-		}
-		else if(this.rollno<o.rollno)
-		{
-			return -1;
-		}
-		
-		return 0;
-	}
+//	public int compareTo(Student o)
+//	{
+//		if(this.rollno > o.rollno)
+//		{
+//			return 1;
+//		}
+//		else if(this.rollno<o.rollno)
+//		{
+//			return -1;
+//		}
+//		
+//		return 0;
+//	}
 	
 }

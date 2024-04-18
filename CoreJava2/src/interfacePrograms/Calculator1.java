@@ -30,7 +30,7 @@ public interface Calculator1 {
 	}
 	/*
 	 * Not necessary to implement it in implementation class. default method will not affect the class which are implementing this interface.
-	 * when developer wants to add new method in interface but they are already implemented by programmers then to affects those implementation 
+	 * when developer wants to add new method in interface but they are already implemented by programmers then to not affects those implementation 
 	 * and providing new features we can use default methods. 
 	 */
 }

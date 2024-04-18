@@ -2,7 +2,6 @@ package interfacePrograms;
 
 public class CalculatorImplementation1 implements Calculator1,Calculator2{
 
-
 	@Override
 	public int addition(int a, int b) {
 		return a+b;
@@ -29,5 +28,9 @@ public class CalculatorImplementation1 implements Calculator1,Calculator2{
 		return a%b;
 	}
 	
+	public int re()
+	{
 	
+		return 1;
+	}
 }
